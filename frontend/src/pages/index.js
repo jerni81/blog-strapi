@@ -1,11 +1,11 @@
-import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import Layout from "../components/layout";
-import ArticlesComponent from "../components/articles";
-import "../assets/css/main.css";
+import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import Layout from "../components/layout"
+import ArticlesComponent from "../components/articles"
+import "../assets/css/main.css"
 
 const IndexPage = () => {
-  const data = useStaticQuery(query);
+  const data = useStaticQuery(query)
 
   return (
     <Layout seo={data.strapiHomepage.seo}>
@@ -16,8 +16,8 @@ const IndexPage = () => {
         </div>
       </div>
     </Layout>
-  );
-};
+  )
+}
 
 const query = graphql`
   query {
@@ -63,6 +63,6 @@ const query = graphql`
       }
     }
   }
-`;
+`
 
-export default IndexPage;
+export default IndexPage

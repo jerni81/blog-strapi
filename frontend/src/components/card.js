@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "gatsby";
-import Img from "gatsby-image";
+import React from "react"
+import { Link } from "gatsby"
+import Img from "gatsby-image"
 
 const Card = ({ article }) => {
   return (
@@ -40,7 +40,7 @@ const Card = ({ article }) => {
         </div>
       </div>
     </Link>
-  );
-};
+  )
+}
 
-export default Card;
+export default Card

@@ -1,5 +1,5 @@
-import React from "react";
-import { Link, StaticQuery, graphql } from "gatsby";
+import React from "react"
+import { Link, StaticQuery, graphql } from "gatsby"
 
 const Nav = () => (
   <StaticQuery
@@ -18,7 +18,7 @@ const Nav = () => (
         }
       }
     `}
-    render={(data) => (
+    render={data => (
       <div>
         <div>
           <nav className="uk-navbar-container" data-uk-navbar>
@@ -53,6 +53,6 @@ const Nav = () => (
       </div>
     )}
   />
-);
+)
 
-export default Nav;
+export default Nav

@@ -1,6 +1,6 @@
 require("dotenv").config({
   path: `.env`,
-});
+})
 
 module.exports = {
   plugins: [
@@ -36,4 +36,4 @@ module.exports = {
     // },
     "gatsby-plugin-offline",
   ],
-};
+}
